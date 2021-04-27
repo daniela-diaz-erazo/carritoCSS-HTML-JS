@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HormiArt</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/contactos.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/redesSociales.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-container__principal">
+                <figure class="container-logo">
+                    <img src="./images/logo_final.png" alt="Logo HormiArt">
+                </figure>
+                <h1>HormiArt</h1>
+                <div class="header-container__iconos">
+                    <a href="javascript:abrirVentana();" class="header-container__btnCar">Carrito <i
+                            class="fas fa-shopping-cart"></i></a>
+                    <input class="header-container__inputSearch" type="search" placeholder="Buscar Productos"><i
+                        class="fas fa-search header-container__inputSearch-icon"> </i>
+                </div>
+            </div>
+            <nav class="header-container__nav" id="nav-menu">
+                <a class="header-container__icon-menu" id="btn-menu">
+                    <i class="fas fa-bars"></i><span class="header-container__label-menu">Menú</span>
+                </a>
+
+                <ul class="menu" id="menu">
+                    <li class="menu__item"><a href="./index.html" class="menu__link">Inicio</a></li>
+                    <li class="menu__item"><a href="#contacto" class="menu__link">Contacto</a></li>
+                    <li class="menu__item"><a href="#productos" class="menu__link">Catálogo</a></li>
+                    <li class="menu__item container-submenu">
+                        <a href="#" class="menu__link container-submenu__btn"> Galería <i class="fas fa-sort-down"></i>
+                        </a>
+                        <ul class="submenu">
+                            <li class="menu__item">
+                                <a href="./vistas/LaminasPiedra.html" class="menu__link">Láminas de Piedra</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="./vistas/MosaicoHidraulico.html" class="menu__link">Mosaico Hidráulico</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="./vistas/HormigonEstampado.html" class="menu__link">Hormigón Estampado</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="./vistas/Stencil.html" class="menu__link">Stencil</a>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                </ul>
+            </nav>
+            <section id="banner" class="banner">
+                <div class="banner__contenido">
+                    <h3><span>Hormigón Decorativo</span><br>Contamos con diseños únicos y elegantes.</h3>
+                    <a href="#" class="banner__contenido--cotizar">Pedir una Cotización</a>
+                </div>
+            </section>
+        </div>
+    </header>
+
+
+    <main class="main">
+        <h3 class="main-title" id="productos">Productos</h3>
+
+        <section class="container-popUp">
+            <div class="popUp-Carrito" id="ventanaCarrito">
+                <a href="javascript:cerrarVentana();" id="cerrar-ventanaCarrito" class="popUp-Carrito__boton--cerrar"><i
+                        class="fas fa-times-circle popUp-Carrito__icon-cerrar"></i></a>
+
+                <table class="table-carrito">
+                    <thead>
+                        <tr class="table-carrito__cabecera">
+                            <th class="table-carrito__cabecera-código" scope="col">Código</th>
+                            <th class="table-carrito__cabecera-item" scope="col">Item</th>
+                            <th class="table-carrito__cabecera-precio" scope="col">Precio</th>
+                            <th class="table-carrito__cabecera-cantidad" scope="col">Cantidad</th>
+                            <th class="table-carrito__cabecera-acción" scope="col">Acción</th>
+                            <th class="table-carrito__cabecera-total" scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="items" class="table-carrito__cabecera-items"></tbody>
+                    <tfoot>
+                        <tr id="footer">
+                            <th scope="row" colspan="6">Carrito vacío!. Seleccione los elementos que desea comprar.</th>
+                        </tr>
+                    </tfoot>
+                </table>
+                <button class="popUpCarrito__btnPagar" id="btn-RealizarCompra">Realizar Compra</button>
+            </div>
+        </section>
+        <section class="container-productos" id="cards">
+
+        </section>
+
+        <div class="social-bar">
+            <a href="https://www.facebook.com/" class="icon icon-facebook" target="_blank"></a>
+            <a href="https://twitter.com/" class="icon icon-twitter" target="_blank"></a>
+            <a href="https://www.youtube.com/" class="icon icon-youtube" target="_blank"></a>
+            <a href="https://www.instagram.com/" class="icon icon-instagram" target="_blank"></a>
+          </div>
+
+        <section id="contacto" class="contacto">
+            <h4>Contacta con nosotros</h4>
+            <form action="" class="form">
+                <div class="form__datos">
+                    <div class="form_datos--nombre">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="name" placeholder="Ingrese su Nombre">
+                    </div>
+                    <div class="form_datos--mail">
+                        <label for="mail">Email</label>
+                        <input type="mail" name="mail" id="mail" placeholder="Ingrese su Email">
+                    </div>
+                </div>
+                <div class="form__mensaje">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"
+                        placeholder="Escriba su mensaje"></textarea>
+                </div>
+                <div class="form__botton">
+                    <a href="#" class="form__botton--enviar">Enviar mensaje</a>
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy;2021 HormiArt - Construye con Belleza</p>
+        </footer>
+
+    </main>
+
+    <template id="template-product">
+        <div class="product">
+            <img src="" alt="" class="product__img">
+            <div class="product__description">
+                <h3 class="product__title"></h3>
+                <p class="product__price"> $ <span></span></p>
+            </div>
+            <i class="fas fa-cart-plus product__icon"></i>
+
+        </div>
+    </template>
+
+
+    <template id="template-carrito">
+        <tr class="carrito__item">
+            <th class="carrito__item-idProdcuto" scope="row"></th>
+            <td class="carrito__item-titleProducto"></td>
+            <td class="carrito__item-precioProducto signo_dolar"> $ <span id="cantidadItem"></span></td>
+            <td class="carrito__item-cantidadProducto"></td>
+            <td class="carrito__item-botones">
+                <button class="carrito__item-bontones--aumentarCantidad">
+                    +
+                </button>
+                <button class="carrito__item-bontones--disminuirCantidad">
+                    -
+                </button>
+            </td>
+            <td class="carrito__item-Total signo_dolar">$ <span></span></td>
+        </tr>
+    </template>
+
+    <template id="template-footer">
+        <th class="footer__cabecera" scope="row" colspan="3">Total productos</th>
+        <td class="footer__celda--sumarCantidad"></td>
+        <td class="footer__boton">
+            <button class="footer__boton--vaciarCarrito" id="vaciar-carrito">
+                Vaciar todo
+            </button>
+        </td>
+        <td class="footer__celda--calcularPago signo_dolar">$ <span></span></td>
+    </template>
+
+    <script src="./js/menu.js"></script>
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>
