@@ -1,0 +1,121 @@
+[
+    {
+      "precio": 8.00,
+      "id": "1S",
+      "title": "Plantilla de Stencil Relojes 21x29,7cm",
+      "imagen": "./images/prod_S/plantilla_de_stencil_relojes_21x29_7cm.jpg",
+      "tipo": "Plantilla Stencil"
+    },
+    {
+      "precio": 6.00,
+      "id": "2S",
+      "title": "Plantilla de Stencil DragonFly 21x15cm",
+      "imagen": "./images/prod_S/plantilla_de_stencil_dragonfly_20x15cm.jpg",
+      "tipo": "Plantilla Stencil"
+      
+    },
+    {
+      "precio": 7.00,
+      "id": "3S",
+      "title": "Plantilla de Stencil Feather 21x10cm",
+      "imagen": "./images/prod_S/plantilla_de_stencil_feather_20x15cm.jpg",
+      "tipo": "Plantilla Stencil"
+    },
+    {
+      "precio": 7.00,
+      "id": "4S",
+      "title": "Plantilla de Stencil Flowers 20x25cm",
+      "imagen": "./images/prod_S/stencil-id-154-flowers-background.jpg",
+      "tipo": "Plantilla Stencil"
+    },
+
+    {
+      "precio": 150,
+      "id": "1HE",
+      "title": "Molde CE Laja Regular Acomodada 61x61cm",
+      "imagen": "./images/prod_CE/01CE_LajaRegularAcomodada 61cm x 61cm.png",
+      "tipo": "Molde Concreto Estampado"
+    },
+    {
+      "precio": 155,
+      "id": "2HE",
+      "title": "Molde CE Laja Moran(5x10) 40x40cm",
+      "imagen": "./images/prod_CE/02CE_LajaMoran 40cm x 40cm.png",
+      "tipo": "Molde Concreto Estampado"
+      
+    },
+    {
+      "precio": 160,
+      "id": "6HE",
+      "title": "Molde CE Abanico Europeo 110x63cm",
+      "imagen": "./images/prod_CE/06CE_AbanicoEuropeo 110cm x 63cm.png",
+      "tipo": "Molde Concreto Estampado"
+    },
+    {
+      "precio": 145,
+      "id": "11HE",
+      "title": "Molde CE Piedra Junta Gruesa 75x75cm",
+      "imagen": "./images/prod_CE/11CE_PiedraJuntaGruesa 75cm x 75cm.png",
+      "tipo": "Molde Concreto Estampado"
+    },
+
+    {
+      "precio": 50,
+      "id": "LP01",
+      "title": "Lámina de piedra Steel Grey 60x70cm",
+      "imagen": "./images/prod_LP/01lamina_steel grey.jpg",
+      "tipo": "Lamina de Piedra"
+    },
+    {
+      "precio": 45,
+      "id": "LP05",
+      "title": "Lámina de piedra Shine Copper 70x70cm",
+      "imagen": "./images/prod_LP/05lamina_shineCopper.png",
+      "tipo": "Lamina de Piedra"
+    },
+    {
+      "precio": 25,
+      "id": "LP07",
+      "title": "Lámina de piedra Gol Green 65x60cm",
+      "imagen": "./images/prod_LP/07lamina_goldGreen.png",
+      "tipo": "Lamina de Piedra"
+    },
+    {
+      "precio": 54,
+      "id": "LP10",
+      "title": "Lámina de piedra Grey Beauty 60x70cm",
+      "imagen": "./images/prod_LP/10lamina_greyBeauty.png",
+      "tipo": "Lamina de Piedra"
+    },
+
+    {
+      "precio": 5,
+      "id": "MH10",
+      "title": "Mosaico Hidráulico Rombo 10x10cm",
+      "imagen": "./images/prod_MH/10MH Rombo 12x12.png",
+      "tipo": "Mosaico Hidraulico"
+    },
+
+    {
+      "precio": 7,
+      "id": "MH15",
+      "title": "Mosaico Hidráulico Circular 12x12cm",
+      "imagen": "./images/prod_MH/15MH Circular 12x12cm.png",
+      "tipo": "Mosaico Hidraulico"
+    },
+    {
+      "precio": 6,
+      "id": "MH09",
+      "title": "Mosaico Hidráulico Remolino 11x11cm",
+      "imagen": "./images/prod_MH/09MH-Remolino 12x12cm.png",
+      "tipo": "Mosaico Hidraulico"
+    },
+    {
+      "precio": 8,
+      "id": "MH07",
+      "title": "Mosaico Hidráulico Moderno 12x12cm",
+      "imagen": "./images/prod_MH/07MH Moderno 12x12cm.png",
+      "tipo": "Mosaico Hidraulico"
+    }
+
+  ]
