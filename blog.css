@@ -1,0 +1,171 @@
+/*Reseteo*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.figure-ejemplo{
+    width: 100%; 
+    justify-content: center;
+    margin-right: 400px;
+}
+   
+.figure-ejemplo img{
+       width: 100%;
+       border-radius: 10%;
+       
+ }
+
+ .productos__imagen{
+     justify-content: center;
+    display: grid;
+    padding: 0px 40px;
+    grid-template-columns: repeat(2, 1rf);
+ }
+
+ .productos__galeria{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 30px;
+
+ }
+
+ h4{
+     text-align: center;
+ }
+
+ 
+ /*Video*/
+ .embed-container {
+    margin-top: 70px;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+  .embed-container iframe,
+  .embed-container object,
+  .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+ h1{
+    color: #4e1417;
+    padding: 20px;
+    font-size: 1.3em;
+    background-color: #E4E4E1;
+ background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+ 	background-blend-mode: normal, multiply;
+ }
+
+ h3{
+    background: #F3FEB0;
+    color: #FEA443;
+    text-transform: uppercase;
+    padding:  10px 10px 10px 50px;
+    border: solid 2px #4e1417;
+ }
+ .productos__item {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+    
+   
+}
+
+.productos__descripcion-link p{
+    font-size: 1.1em;
+    text-align: center;
+    display: flex;
+    
+}
+
+.productos__item--ver {
+    display: inline-block;
+    text-decoration: none;
+    color: #705E78;
+    border: 3px solid #705E78;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 19px;
+    font-weight: 450;
+    transition: all 0.4s;
+    margin-top: 4px;
+    margin-left: 20px;
+    
+}
+.productos__item--ver:hover{
+    background: #705E78;
+    color: #fff;
+}
+
+.productos__descripcion-link{
+    
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.productos__descripcion-link p {
+    text-align: center;
+    padding: 10px;
+}
+a {
+    text-align: center;
+}
+
+h4{
+    font-size: 1.3em;
+    color: #4e1417;
+}
+/*Responsive celular*/
+@media(max-width: 768px) {
+   
+.productos__item{
+    display: block;
+}
+
+.productos__galeria{
+
+    grid-template-columns: repeat(1,1fr);
+}
+
+.embed-container {
+    
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+
+
+.productos__imagen{
+ display: block;
+
+}
+
+p{
+    font-size: 0.9em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+}
